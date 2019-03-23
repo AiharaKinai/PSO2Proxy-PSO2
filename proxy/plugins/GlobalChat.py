@@ -1,0 +1,960 @@
+import commands
+import config
+from config import ShipLabel
+import data.clients
+import data.players
+import json
+import packetFactory
+import plugins
+from PSO2DataTools import check_irc_with_pso2
+from PSO2DataTools import check_pso2_with_irc
+from PSO2DataTools import replace_irc_with_pso2
+from PSO2DataTools import replace_pso2_with_irc
+from twisted.internet import protocol
+from twisted.internet import reactor
+from twisted.internet import task
+from twisted.python import log
+from twisted.words.protocols import irc
+
+try:
+    import PSO2PDConnector
+    redisEnabled = True
+except ImportError:
+    redisEnabled = False
+
+ircSettings = config.YAMLConfig(
+    "cfg/gchat-irc.config.yml",
+    {
+        'enabled': False,
+        'nick': "PSO2IRCBot",
+        'server': '',
+        'port': 6667,
+        'svname': 'NickServ',
+        'svpass': '',
+        'channel': "",
+        'output': True,
+        'autoexec': [],
+        'discord': False
+    },
+    True
+)
+
+ircBot = None
+ircMode = ircSettings['enabled']
+ircOutput = ircSettings['output']
+ircNick = ircSettings['nick']
+ircServer = (ircSettings['server'], ircSettings['port'])
+ircChannel = ircSettings['channel']
+ircServicePass = ircSettings['svpass']
+ircServiceName = ircSettings['svname']
+discord = ircSettings['discord']
+
+gchatSettings = config.YAMLConfig(
+    "cfg/gchat.config.yml",
+    {
+        'displayMode': 0,
+        'bubblePrefix': '',
+        'systemPrefix': '{whi}',
+        'prefix': ''
+    },
+    True
+)
+
+
+def doRedisGchat(message):
+    gchatMsg = json.loads(message['data'])
+<<<<<<< HEAD
+    fb = ("SHIP-%02i") % gchatMsg['ship']
+=======
+    if gchatMsg['ship'] == "GIRC":
+        fb = "GIRC"
+    else:
+        fb = ("G-%02i") % gchatMsg['ship']
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+    shipl = ShipLabel.get(fb, fb)
+    strgchatmsg = str(gchatMsg['text'].encode('utf-8'))
+    if not check_irc_with_pso2(strgchatmsg):
+        return
+    if gchatMsg['server'] == PSO2PDConnector.connector_conf['server_name']:
+        return
+    if gchatMsg['sender'] == 1:
+        for client in data.clients.connectedClients.values():
+            if client.preferences.get_preference('globalChat') and client.get_handle() is not None:
+                if lookup_gchatmode(client.preferences) == 0:
+<<<<<<< HEAD
+                    client.get_handle().send_crypto_packet(packetFactory.TeamChatPacket(gchatMsg['playerId'], "[Discord] %s" % gchatMsg['playerName'], "[Discord] %s" % gchatMsg['playerName'], "%s%s" % (client.preferences.get_preference('globalChatPrefix'), replace_irc_with_pso2(strgchatmsg).decode('utf-8', 'ignore'))).build())
+                else:
+                    client.get_handle().send_crypto_packet(packetFactory.SystemMessagePacket("[Discord] <%s> %s" % (gchatMsg['playerName'], "%s%s" % (client.preferences.get_preference('globalChatPrefix'), replace_irc_with_pso2(strgchatmsg).decode('utf-8', 'ignore'))), 0x3).build())
+=======
+                    client.get_handle().send_crypto_packet(
+                        packetFactory.TeamChatPacket(
+                            gchatMsg['playerId'],
+                            "[GIRC] %s" % gchatMsg['playerName'],
+                            "[GIRC] %s" % gchatMsg['playerName'],
+                            "%s%s" % (
+                                client.preferences.get_preference('globalChatPrefix'),
+                                replace_irc_with_pso2(strgchatmsg).decode('utf-8', 'ignore')
+                            )
+                        ).build()
+                    )
+                else:
+                    client.get_handle().send_crypto_packet(
+                        packetFactory.SystemMessagePacket(
+                            "[GIRC] <%s> %s" % (
+                                gchatMsg['playerName'],
+                                "%s%s" % (
+                                    client.preferences.get_preference('globalChatPrefix'),
+                                    replace_irc_with_pso2(strgchatmsg).decode('utf-8', 'ignore')
+                                )
+                            ),
+                            0x3
+                        ).build()
+                    )
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+    else:
+        if ircMode:
+                global ircBot
+                if ircBot is not None:
+                    ircBot.send_global_message(
+                        gchatMsg['ship'],
+                        str(gchatMsg['playerName'].encode('utf-8')),
+                        strgchatmsg,
+                        str(gchatMsg['server'])
+                    )
+        for client_data in data.clients.connectedClients.values():
+                if client_data.preferences.get_preference('globalChat') and client_data.get_handle() is not None:
+                    if lookup_gchatmode(client_data.preferences) == 0:
+                        client_data.get_handle().send_crypto_packet(
+                            packetFactory.TeamChatPacket(
+                                gchatMsg['playerId'],
+                                u"(%s) [%s] %s" % (
+                                    gchatMsg['server'],
+                                    shipl,
+                                    gchatMsg['playerName']
+                                ),
+                                gchatMsg['playerName'], u"%s%s" % (
+                                    client_data.preferences.get_preference('globalChatPrefix'),
+                                    gchatMsg['text']
+                                )
+                            ).build()
+                        )
+                    else:
+                        client_data.get_handle().send_crypto_packet(
+                            packetFactory.SystemMessagePacket(
+                                u"(%s) [%s] <%s> %s" % (
+                                    gchatMsg['server'],
+                                    shipl,
+                                    gchatMsg['playerName'],
+                                    u"%s%s" % (
+                                        client_data.preferences.get_preference('globalChatPrefix'),
+                                        gchatMsg['text']
+                                    )
+                                ),
+                                0x3
+                            ).build()
+                        )
+
+
+if redisEnabled:
+    PSO2PDConnector.thread.pubsub.subscribe(**{'plugin-message-gchat': doRedisGchat})
+
+if ircMode:
+    # noinspection PyUnresolvedReferences
+    class GChatIRC(irc.IRCClient):
+        currentPid = 0
+        userIds = {}
+        nickmsgbuf = ""
+        nickbuf = ""
+
+        def __init__(self):
+            global ircNick
+            self.nickname = ircNick
+            self.ircOutput = ircOutput
+
+        def get_user_id(self, user):
+            if user not in self.userIds:
+                self.userIds[user] = self.currentPid
+                self.currentPid += 1
+            return self.userIds[user]
+
+        def connectionMade(self):
+            irc.IRCClient.connectionMade(self)
+            print("[GlobalChat] IRC Connected!")
+
+        def connectionLost(self, reason):
+            irc.IRCClient.connectionLost(self, reason)
+            print("[GlobalChat] IRC Connection lost!")
+
+        def joinChan(self):
+            global ircBot
+            try:
+                if self.factory.channel[:1] in ["#", "!", "+", "&"]:
+                    self.join(self.factory.channel)
+                    print("[GlobalChat] Joined %s" % self.factory.channel)
+                    ircBot = self
+                else:
+                    raise NameError(
+                        "[GlobalChat] Failed to join {} channel must contain a #, !, + or & before the channel name".format(
+                            self.factory.channel
+                        )
+                    )
+            except NameError as ne:
+                print(ne)
+                log.msg(ne)
+
+        def signedOn(self):
+            if discord:
+                self.msg("&bitlbee", "identify %s" % ircServicePass)
+                self.sendLine("OPER %s %s" % (self.nickname, ircServicePass))
+            for command in ircSettings['autoexec']:
+                self.sendLine(command)
+                print("[IRC-AUTO] >>> %s" % command)
+            task.deferLater(reactor, 15, self.joinChan)
+            print("[GlobalChat] Joining channels in 15 seconds...")
+
+        def privmsg(self, user, channel, msg):
+            if not check_irc_with_pso2(msg):
+                return
+            if channel == self.factory.channel:
+                if "title: [Ship " in msg:
+                    self.nickbuf = user
+                    self.nickmsgbuf = msg.replace("title: ", "", 1)
+                    return
+                elif "title: " in msg and "title: [Ship " not in msg:
+                    self.nickbuf = None
+                if self.nickbuf == user:
+                    msg = msg.replace("description: ", "", 1)
+                if self.ircOutput is True:
+<<<<<<< HEAD
+                    print("[GlobalChat] [Discord] <%s> %s" % (user.split("!")[0], replace_irc_with_pso2(msg).decode('utf-8', 'ignore')))
+=======
+                    if self.nickbuf == user:
+                        print(
+                            "[GlobalChat] [IRC] <{}> {}".format(
+                                self.nickmsgbuf.split("] ")[1],
+                                replace_irc_with_pso2(msg).decode('utf-8', 'ignore')
+                            )
+                        )
+                    else:
+                        print(
+                            "[GlobalChat] [IRC] <{}> {}".format(
+                                user.split("!")[0],
+                                replace_irc_with_pso2(msg).decode('utf-8', 'ignore')
+                            )
+                        )
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+                if redisEnabled:
+                    if self.nickbuf == user:
+                        PSO2PDConnector.db_conn.publish(
+                            "plugin-message-gchat",
+                            json.dumps(
+                                {
+                                    'sender': 1,
+                                    'text': replace_irc_with_pso2(msg).decode('utf-8', 'ignore'),
+                                    'server': PSO2PDConnector.connector_conf['server_name'], 'playerName': self.nickmsgbuf,
+                                    'playerId': self.get_user_id(self.nickmsgbuf),
+                                    'ship': "GIRC"
+                                }
+                            )
+                        )
+                    else:
+                        PSO2PDConnector.db_conn.publish(
+                            "plugin-message-gchat",
+                            json.dumps(
+                                {
+                                    'sender': 1,
+                                    'text': replace_irc_with_pso2(msg).decode('utf-8', 'ignore'),
+                                    'server': PSO2PDConnector.connector_conf['server_name'],
+                                    'playerName': user.split("!")[0],
+                                    'playerId': self.get_user_id(user.split("!")[0]), 'ship': "GIRC"
+                                }
+                            )
+                        )
+                for client in data.clients.connectedClients.values():
+
+                    if discord and self.nickbuf == user:
+                        nickmsg = self.nickmsgbuf.split(":")[0]
+                    else:
+                        nickmsg = user.split("!")[0]
+                    pso2msg = replace_irc_with_pso2(msg).decode('utf-8', 'ignore')
+                    if client.preferences.get_preference('globalChat') and client.get_handle() is not None:
+                        if lookup_gchatmode(client.preferences) == 0:
+<<<<<<< HEAD
+                            client.get_handle().send_crypto_packet(packetFactory.TeamChatPacket(self.get_user_id(user.split("!")[0]), "[Discord] %s" % user.split("!")[0], "[Discord] %s" % user.split("!")[0], "%s%s" % (client.preferences.get_preference('globalChatPrefix'), replace_irc_with_pso2(msg).decode('utf-8', 'ignore'))).build())
+                        else:
+                            client.get_handle().send_crypto_packet(packetFactory.SystemMessagePacket("[Discord] <%s> %s" % (user.split("!")[0], "%s%s" % (client.preferences.get_preference('globalChatPrefix'), replace_irc_with_pso2(msg).decode('utf-8', 'ignore'))), 0x3).build())
+            else:
+                print("[Discord] <%s> %s" % (user, msg))
+=======
+                            client.get_handle().send_crypto_packet(
+                                packetFactory.TeamChatPacket(
+                                    self.get_user_id(nickmsg),
+                                    u"[GIRC] %s" % nickmsg,
+                                    u"[GIRC] %s" % nickmsg,
+                                    u"%s%s" % (
+                                        client.preferences.get_preference('globalChatPrefix'),
+                                        pso2msg
+                                    )
+                                ).build()
+                            )
+                        else:
+                            client.get_handle().send_crypto_packet(
+                                packetFactory.SystemMessagePacket(
+                                    u"[GIRC] <{}> {}".format(
+                                        nickmsg,
+                                        u"{}{}".format(
+                                            client.preferences.get_preference('globalChatPrefix'),
+                                            pso2msg
+                                        )
+                                    ),
+                                    0x3
+                                ).build()
+                            )
+            else:
+                if not discord:
+                    print("[IRC] <%s> %s" % (user.encode('ascii', 'ignore'), msg.encode('ascii', 'ignore')))
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+
+        def noticed(self, user, channel, message):
+            print("[Discord] [NOTICE] %s %s" % (user, message))
+            if user.split("!")[0] == 'NickServ' and 'registered' in message:
+                global ircServicePass
+                global ircServiceName
+                if ircServicePass is not '':
+                    self.msg(ircServiceName, "identify %s" % (ircServicePass))
+                    print("[Discord] Sent identify command to %s." % (ircServiceName))
+
+        def action(self, user, channel, msg):
+            if not check_irc_with_pso2(msg):
+                return
+            if channel == self.factory.channel:
+                if self.ircOutput is True:
+                    print("[GlobalChat] [Discord] * %s %s" % (user, replace_irc_with_pso2(msg).decode('utf-8', 'ignore')))
+                for client in data.clients.connectedClients.values():
+                    if client.preferences.get_preference('globalChat') and client.get_handle() is not None:
+                        if lookup_gchatmode(client.preferences) == 0:
+<<<<<<< HEAD
+                            client.get_handle().send_crypto_packet(packetFactory.TeamChatPacket(self.get_user_id(user.split("!")[0]), "[Discord] %s" % user.split("!")[0], "[Discord] %s" % user.split("!")[0], "* %s%s" % (client.preferences.get_preference('globalChatPrefix'), replace_irc_with_pso2(msg).decode('utf-8', 'ignore'))).build())
+                        else:
+                            client.get_handle().send_crypto_packet(packetFactory.SystemMessagePacket("[Discord] <%s> * %s" % (user.split("!")[0], "%s%s" % (client.preferences.get_preference('globalChatPrefix'), replace_irc_with_pso2(msg).decode('utf-8', 'ignore'))), 0x3).build())
+=======
+                            client.get_handle().send_crypto_packet(
+                                packetFactory.TeamChatPacket(
+                                    self.get_user_id(
+                                        user.split("!")[0]
+                                    ),
+                                    u"[GIRC] %s" % user.split("!")[0],
+                                    u"[GIRC] %s" % user.split("!")[0],
+                                    u"* %s%s" % (
+                                        client.preferences.get_preference('globalChatPrefix'),
+                                        replace_irc_with_pso2(msg).decode('utf-8', 'ignore')
+                                    )
+                                ).build()
+                            )
+                        else:
+                            client.get_handle().send_crypto_packet(
+                                packetFactory.SystemMessagePacket(
+                                    u"[GIRC] <%s> * %s" % (
+                                        user.split("!")[0],
+                                        u"%s%s" % (
+                                            client.preferences.get_preference('globalChatPrefix'),
+                                            replace_irc_with_pso2(msg).decode('utf-8', 'ignore')
+                                        )
+                                    ),
+                                    0x3
+                                ).build()
+                            )
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+
+        def send_global_message(self, ship, user, message, server=None):
+            if not check_pso2_with_irc(message):
+                return
+            fb = ("SHIP-%02i") % ship
+            shipl = ShipLabel.get(fb, fb)
+<<<<<<< HEAD
+            if server is None:
+                self.msg(self.factory.channel, "``[%s] <%s>``: %s" % (shipl, user, replace_pso2_with_irc(message)))
+            else:
+                self.msg(self.factory.channel, "(%s) ``[%s] <%s>``: %s" % (server, shipl, user, replace_pso2_with_irc(message)))
+=======
+            if server is None and redisEnabled:
+                server = PSO2PDConnector.connector_conf['server_name']
+            if discord:
+                if server is None:
+                    self.say(self.factory.channel, "`[%s] %s`: %s" % (shipl, user, replace_pso2_with_irc(message)), 250)
+                else:
+                    self.msg(self.factory.channel, "`(%s) [%s] %s`: %s" % (server, shipl, user, replace_pso2_with_irc(message)))
+            else:
+                if server is None:
+                    self.msg(self.factory.channel, "[%s] <%s> %s" % (shipl, user, replace_pso2_with_irc(message)))
+                else:
+                    self.msg(self.factory.channel, "(%s) [%s] <%s> %s" % (server, shipl, user, replace_pso2_with_irc(message)))
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+
+        def send_channel_message(self, message):
+            self.msg(self.factory.channel, message)
+
+    class GIRCFactory(protocol.ClientFactory):
+        """docstring for ClassName"""
+
+        def __init__(self, channel):
+            self.channel = channel
+
+        def buildProtocol(self, addr):
+            p = GChatIRC()
+            p.factory = self
+            return p
+
+        def clientConnectionLost(self, connector, reason):
+            connector.connect()
+
+        def clientConnectionFailed(self, connector, reason):
+            connector.connect()
+
+
+def lookup_gchatmode(client_preferences):
+    return 1
+    if redisEnabled:
+        return 1
+    if client_preferences['gchatMode'] is not -1:
+        return client_preferences['gchatMode']
+    return gchatSettings['displayMode']
+
+
+@plugins.on_start_hook
+def create_preferences():
+    global ircMode
+    if ircMode:
+        global ircChannel
+        global ircServer
+        bot = GIRCFactory(ircChannel)
+        reactor.connectTCP(ircServer[0], ircServer[1], bot)
+
+
+# noinspection PyUnresolvedReferences
+@plugins.on_initial_connect_hook
+def check_config(user):
+    global ircMode
+    if user.playerId in data.clients.connectedClients:
+        client_preferences = data.clients.connectedClients[user.playerId].preferences
+        if not client_preferences.has_preference("globalChat"):
+            client_preferences.set_preference("globalChat", True)
+        if not client_preferences.has_preference("globalChatPrefix"):
+            client_preferences.set_preference("globalChatPrefix", gchatSettings['prefix'])
+        if client_preferences.get_preference('globalChat'):
+<<<<<<< HEAD
+            user.send_crypto_packet(packetFactory.SystemMessagePacket(
+                "===================<INFO>====================\nHello Everyone...%s\nDemi hidupnya PCP Network, dibutuhkan donator yang dermawan.\nKami tidak memaksakan anda, namun kami tidak bisa mencegah kematian PCP Network.\n=============================================\nDonasi ke Bank Mandiri\n169-00-0033264-0\na/n : N R S\nDonasi ke Paypal\nhttps://paypal.me/noviarrs \n=============================================\nSetelah Donasi di WAJIB kan untuk menaruh bukti transfer ke channel #Donasi-Proxy di Discord." % (config.globalConfig.get_key('commandPrefix')),
+                0x1).build()) #Login Message versi Gchat
+        else:
+            user.send_crypto_packet(packetFactory.SystemMessagePacket(
+                "===================<INFO>====================\nHello Everyone...%s\nDemi hidupnya PCP Network, dibutuhkan donator yang dermawan.\nKami tidak memaksakan anda, namun kami tidak bisa mencegah kematian PCP Network.\n=============================================\nDonasi ke Bank Mandiri\n169-00-0033264-0\na/n : N R S\n\nDonasi ke Paypal\nhttps://paypal.me/noviarrs \n=============================================\nSetelah Donasi di WAJIB kan untuk menaruh bukti transfer ke channel #Donasi-Proxy di Discord." % (config.globalConfig.get_key('commandPrefix')),
+                0x1).build())
+=======
+            user.send_crypto_packet(
+                packetFactory.SystemMessagePacket(
+                    "[Proxy] {0}Global chat is enabled. Use {1}g <Message> "
+                    "to chat, {1}goff to disable it, and {1}gmode to toggle "
+                    "team/system chat mode.".format(
+                        "{yel}",
+                        config.globalConfig['commandPrefix']
+                    ),
+                    0x3
+                ).build()
+            )
+        else:
+            user.send_crypto_packet(packetFactory.SystemMessagePacket(
+                "[Proxy] {0}Global chat is disabled. Use {1}gon to enable it,"
+                " {1}g <Message> to chat, and {1}gmode to toggle team/system "
+                "chat mode.".format(
+                    "{yel}",
+                    config.globalConfig['commandPrefix']
+                ),
+                0x3
+            ).build())
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+        if not client_preferences.has_preference("gchatMode"):
+            client_preferences['gchatMode'] = -1
+
+
+@plugins.CommandHook("gmode", "Display mode team/sistem Gchat.")
+class GChatModeCommand(commands.Command):
+    def call_from_client(self, client):
+        if client.playerId is not None:
+            client_preferences = data.clients.connectedClients[client.playerId].preferences
+            if client_preferences['gchatMode'] == -1:
+                client_preferences['gchatMode'] = 0
+<<<<<<< HEAD
+                client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {gre}Gchat dialihkan pada Team Chat.", 0x3).build())
+            elif client_preferences['gchatMode'] == 0:
+                client_preferences['gchatMode'] = 1
+                client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {gre}Gchat dialihkan pada Sistem Chat.", 0x3).build())
+            elif client_preferences['gchatMode'] == 1:
+                client_preferences['gchatMode'] = -1
+                if gchatSettings['displayMode'] == 0:
+                    client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {gre}Gchat dialihkan pada Team Chat. (Default)", 0x3).build())
+                else:
+                    client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {gre}Gchat dialihkan pada Sistem Chat. (Default)", 0x3).build())
+
+
+@plugins.CommandHook("gon", "Mengaktifkan Gchat.")
+=======
+                client.send_crypto_packet(
+                    packetFactory.SystemMessagePacket(
+                        "[Command] {gre}Global chat will now come through team chat.",
+                        0x3
+                    ).build()
+                )
+            elif client_preferences['gchatMode'] == 0:
+                client_preferences['gchatMode'] = 1
+                client.send_crypto_packet(
+                    packetFactory.SystemMessagePacket(
+                        "[Command] {gre}Global chat will now come through system chat.",
+                        0x3
+                    ).build()
+                )
+            elif client_preferences['gchatMode'] == 1:
+                client_preferences['gchatMode'] = -1
+                if gchatSettings['displayMode'] == 0:
+                    client.send_crypto_packet(
+                        packetFactory.SystemMessagePacket(
+                            "[Command] {gre}Global chat will now come through team chat. (Default)",
+                            0x3
+                        ).build()
+                    )
+                else:
+                    client.send_crypto_packet(
+                        packetFactory.SystemMessagePacket(
+                            "[Command] {gre}Global chat will now come through system chat. (Default)",
+                            0x3
+                        ).build()
+                    )
+
+
+@plugins.CommandHook("gprefix", "Changes your Global Chat prefix / color.")
+class GPrefixCommand(commands.Command):
+    def call_from_client(self, client):
+        if client.playerId is not None:
+            client_prefs = data.clients.connectedClients[client.playerId].preferences
+            if len(self.args.split(" ", 1)) < 2:
+                client.send_crypto_packet(
+                    packetFactory.SystemMessagePacket(
+                        "[Command] {red}Invalid usage. Usage: gprefix <Prefix or PSO2 Color Code>",
+                        0x3
+                    ).build()
+                )
+                return
+            prefix = self.args.split(" ", 1)[1]
+            client_prefs['globalChatPrefix'] = prefix
+            client.send_crypto_packet(packetFactory.SystemMessagePacket("[Command] {gre}Your prefix has been set.", 0x3).build())
+
+
+@plugins.CommandHook("irc")
+class IRCCommand(commands.Command):
+    def call_from_console(self):
+        global ircMode
+        global ircBot
+        if ircMode and ircBot is not None:
+            ircBot.sendLine(self.args.split(" ", 1)[1].encode('utf-8'))
+            return "[IRC] >>> %s" % self.args.split(" ", 1)[1]
+
+
+@plugins.CommandHook("ident")
+class IdentCommand(commands.Command):
+    def call_from_console(self):
+        global ircMode
+        global ircBot
+        global ircServiceName
+        global ircServicePass
+        if ircMode and ircBot is not None:
+            ircBot.msg(ircServiceName, "identify %s" % (ircServicePass))
+            return "[IRC] Sent identify command to %s." % (ircServiceName)
+
+
+@plugins.CommandHook("gon", "Enable Global Chat.")
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+class EnableGChat(commands.Command):
+    def call_from_client(self, client):
+        preferences = data.clients.connectedClients[client.playerId].preferences
+        if not preferences['globalChat']:
+            preferences['globalChat'] = True
+<<<<<<< HEAD
+            client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {gre}Gchat Status: {ora}ON.", 0x3).build())
+        else:
+            client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {gre}Anda sudah mengaktifkan Gchat", 0x3).build())
+=======
+            client.send_crypto_packet(
+                packetFactory.SystemMessagePacket(
+                    "[GlobalChat] Global chat has been enabled for you.",
+                    0x3
+                ).build()
+            )
+        else:
+            client.send_crypto_packet(
+                packetFactory.SystemMessagePacket(
+                    "[GlobalChat] You already have global chat enabled.",
+                    0x3
+                ).build()
+            )
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+
+    def call_from_console(self):
+        if ircMode:
+            global ircBot
+            if ircBot is not None:
+                ircBot.ircOutput = True
+        return "[PCP Bot] Gchat Status: ON."
+
+
+@plugins.CommandHook("goff", "Menonaktifkan Gchat.")
+class DisableGChat(commands.Command):
+    def call_from_client(self, client):
+        preferences = data.clients.connectedClients[client.playerId].preferences
+        if preferences["globalChat"]:
+            preferences['globalChat'] = False
+<<<<<<< HEAD
+            client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {gre}Gchat Status: {ora}OFF.", 0x3).build())
+        else:
+            client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {gre}Anda sudah menonaktifkan Gchat.", 0x3).build())
+=======
+            client.send_crypto_packet(
+                packetFactory.SystemMessagePacket(
+                    "[GlobalChat] Global chat has been disabled for you.",
+                    0x3
+                ).build()
+            )
+        else:
+            client.send_crypto_packet(
+                packetFactory.SystemMessagePacket(
+                    "[GlobalChat] You already have global chat disabled.",
+                    0x3
+                ).build()
+            )
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+
+    def call_from_console(self):
+        if ircMode:
+            global ircBot
+            if ircBot is not None:
+                ircBot.ircOutput = False
+        return "[GlobalChat] Gchat dinonaktifkan untuk console."
+
+
+@plugins.CommandHook("gmute", "[Hanya Admin] Menonaktifkan Gchat pada users tertentu.", True)
+class MuteSomebody(commands.Command):
+    def call_from_client(self, client):
+        """
+        :param client: ShipProxy.ShipProxy
+        """
+        if len(self.args.split(" ", 1)) < 2:
+<<<<<<< HEAD
+            client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {red}Perintah Salah. {ora}Ketik !gmute <Player Name>").build())
+=======
+            client.send_crypto_packet(
+                packetFactory.SystemMessagePacket(
+                    "[Command] {red}Invalid usage. gmute <Player Name>"
+                ).build()
+            )
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+            return
+        user_to_mute = self.args.split(" ", 1)[1]
+        if user_to_mute.isdigit() and int(user_to_mute) in data.clients.connectedClients:
+            data.clients.connectedClients[int(user_to_mute)].preferences['chatMuted'] = True
+            client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {gre}%s Dinonaktifkan dari Gchat." % user_to_mute, 0x3).build())
+            return
+        else:
+            for player_id, player_data in data.players.playerList.items():
+                if player_data[0].rstrip("\0") == user_to_mute:
+                    if player_id in data.clients.connectedClients:
+                        data.clients.connectedClients[player_id].preferences['chatMuted'] = True
+<<<<<<< HEAD
+                        client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {gre}%s Dinonaktifkan dari Gchat." % player_data[0].rstrip("\0"), 0x3).build())
+                        return
+                    else:
+                        client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {red}Tidak dapat menggunakan perintah ini ketika %s sedang Offline." % player_data[0].rstrip("\0"), 0x3).build())
+                        return
+
+        client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {red}Tidak dapat menggunakan perintah ini ketika %s sedang Offline." % user_to_mute, 0x3).build())
+=======
+                        client.send_crypto_packet(
+                            packetFactory.SystemMessagePacket(
+                                "[Command] {}Muted {}.".format(
+                                    "{gre}",
+                                    player_data[0].rstrip("\0")
+                                ),
+                                0x3
+                            ).build()
+                        )
+                        return
+                    else:
+                        client.send_crypto_packet(
+                            packetFactory.SystemMessagePacket(
+                                "[Command] {}{} either is not connected or is not part of the proxy.".format(
+                                    "{red}",
+                                    player_data[0].rstrip("\0")
+                                ),
+                                0x3
+                            ).build()
+                        )
+                        return
+
+        client.send_crypto_packet(
+            packetFactory.SystemMessagePacket(
+                "[Command] {}{} either is not connected or is not part of the proxy.".format(
+                    "{red}",
+                    user_to_mute
+                ),
+                0x3
+            ).build()
+        )
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+
+    def call_from_console(self):
+        if len(self.args.split(" ", 1)) < 2:
+            return "[PCP Bot] Perintah Salah. Ketik !gmute <Player Name>"
+        user_to_mute = self.args.split(" ", 1)[1]
+        if user_to_mute.isdigit() and int(user_to_mute) in data.clients.connectedClients:
+            data.clients.connectedClients[int(user_to_mute)].preferences['chatMuted'] = True
+            return "Muted %s by Player #" % user_to_mute
+        for player_id, player_data in data.players.playerList.items():
+            if player_data[0].rstrip("\0") == user_to_mute:
+                if player_id in data.clients.connectedClients:
+                    data.clients.connectedClients[player_id].preferences['chatMuted'] = True
+                    return "[PCP Bot]%s Dinonaktifkan dari Gchat." % player_data[0].rstrip("\0")
+                else:
+                    return "[PCP Bot] Tidak dapat menggunakan perintah ini ketika %s sedang Offline." % player_data[0].rstrip("\0")
+        return "[PCP Bot] Tidak dapat menggunakan perintah ini ketika %s sedang Offline." % user_to_mute
+
+
+@plugins.CommandHook("gunmute", "[Hanya Admin] Mengaktifkan Gchat pada users tertentu.", True)
+class UnmuteSomebody(commands.Command):
+    def call_from_client(self, client):
+        """
+        :param client: ShipProxy.ShipProxy
+        """
+        if len(self.args.split(" ", 1)) < 2:
+<<<<<<< HEAD
+            client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {red}Perintah salah. {ora}ketik !gunmute <Player Name>").build())
+=======
+            client.send_crypto_packet(
+                packetFactory.SystemMessagePacket(
+                    "[Command] {red}Invalid usage. gunmute <Player Name>"
+                ).build()
+            )
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+            return
+        user_to_mute = self.args.split(" ", 1)[1]
+        if user_to_mute.isdigit() and int(user_to_mute) in data.clients.connectedClients:
+            data.clients.connectedClients[int(user_to_mute)].preferences['chatMuted'] = False
+            client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {gre}Mengaktifkan Gchat %s." % user_to_mute, 0x3).build())
+        else:
+<<<<<<< HEAD
+            client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {red}Tidak dapat menggunakan perintah ini ketika %s sedang Offline." % user_to_mute, 0x3).build())
+
+        for player_id, player_data in data.players.playerList.iteritems():
+            if player_data[0].rstrip("\0") == user_to_mute:
+                if player_id in data.clients.connectedClients:
+                    data.clients.connectedClients[player_id].preferences['chatMuted'] = False
+                    client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {gre}Mengaktifkan Gchat %s." % player_data[0].rstrip("\0"), 0x3).build())
+                else:
+                    client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {red}Tidak dapat menggunakan perintah ini ketika %s sedang Offline." % player_data[0].rstrip("\0"), 0x3).build())
+=======
+            client.send_crypto_packet(
+                packetFactory.SystemMessagePacket(
+                    "[Command] {}{} either is not connected or is not part of the proxy.".format(
+                        "{red}",
+                        user_to_mute
+                    ),
+                    0x3
+                ).build()
+            )
+
+        for player_id, player_data in data.players.playerList.items():
+            if player_data[0].rstrip("\0") == user_to_mute:
+                if player_id in data.clients.connectedClients:
+                    data.clients.connectedClients[player_id].preferences['chatMuted'] = False
+                    client.send_crypto_packet(
+                        packetFactory.SystemMessagePacket(
+                            "[Command] {}Unmuted {}.".format(
+                                "{gre}",
+                                player_data[0].rstrip("\0")
+                            ),
+                            0x3
+                        ).build()
+                    )
+                else:
+                    client.send_crypto_packet(
+                        packetFactory.SystemMessagePacket(
+                            "[Command] {}{} either is not connected or is not part of the proxy.".format(
+                                "{red}",
+                                player_data[0].rstrip("\0")
+                            ),
+                            0x3
+                        ).build()
+                    )
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+
+    def call_from_console(self):
+        if len(self.args.split(" ", 1)) < 2:
+            return "[PCP Bot] Perintah salah. ketik !gunmute <Player Name>"
+        user_to_mute = self.args.split(" ", 1)[1]
+        if user_to_mute.isdigit() and int(user_to_mute) in data.clients.connectedClients:
+            data.clients.connectedClients[int(user_to_mute)].preferences['chatMuted'] = False
+            return "Unmuted %s by Player #" % user_to_mute
+        for player_id, player_data in data.players.playerList.items():
+            if player_data[0].rstrip("\0") == user_to_mute:
+                if player_id in data.clients.connectedClients:
+                    data.clients.connectedClients[player_id].preferences['chatMuted'] = False
+                    return "[PCP Bot] Mengaktifkan Gchat %s." % player_data[0].rstrip("\0")
+                else:
+                    return "[PCP Bot] Tidak dapat menggunakan perintah ini ketika %s sedang Offline." % player_data[0].rstrip("\0")
+        return "[PCP Bot] Tidak dapat menggunakan perintah ini ketika %s sedang Offline." % user_to_mute
+
+
+@plugins.CommandHook("g", "Mengirim chat ke Gchat.")
+class GChat(commands.Command):
+    def call_from_client(self, client):
+        global ircMode
+        if not data.clients.connectedClients[client.playerId].preferences.get_preference('globalChat'):
+            client.send_crypto_packet(packetFactory.SystemMessagePacket(
+                "{yel}[PCP Bot] {gre}Gchat Status: {ora}OFF{gre}, dan tidak dapat mengirim pesan", 0x3).build())
+            return
+<<<<<<< HEAD
+        if data.clients.connectedClients[client.playerId].preferences.has_preference("chatMuted") and data.clients.connectedClients[client.playerId].preferences['chatMuted']:
+            client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {red}Anda dinonaktifkan dari Gchat dan anda tidak dapat mengirim pesan ke Gchat. :(", 0x3).build())
+=======
+        if (
+            data.clients.connectedClients[client.playerId].preferences.has_preference("chatMuted") and
+            data.clients.connectedClients[client.playerId].preferences['chatMuted']
+        ):
+            client.send_crypto_packet(
+                packetFactory.SystemMessagePacket(
+                    "[GChat] {red}You have been muted from GChat and can not talk in it. :(",
+                    0x3
+                ).build()
+            )
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+            return
+        print("[GlobalChat] [%s] %s" % (data.players.playerList[client.playerId][0], self.args[3:]))
+        if redisEnabled:
+                    PSO2PDConnector.db_conn.publish(
+                        "plugin-message-gchat", json.dumps(
+                            {
+                                'sender': 0, 'text': self.args[3:],
+                                'server': PSO2PDConnector.connector_conf['server_name'],
+                                'playerName': data.players.playerList[client.playerId][0],
+                                'playerId': client.playerId,
+                                'ship': data.clients.connectedClients[client.playerId].ship
+                            }
+                        )
+                    )
+        if ircMode:
+            global ircBot
+            if ircBot is not None:
+<<<<<<< HEAD
+                ircBot.send_global_message(data.clients.connectedClients[client.playerId].ship, data.players.playerList[client.playerId][0].encode('utf-8'), self.args[3:].encode('utf-8'))
+        fb = ("Ship-%02i") % data.clients.connectedClients[client.playerId].ship
+=======
+                ircBot.send_global_message(
+                    data.clients.connectedClients[client.playerId].ship,
+                    data.players.playerList[client.playerId][0].encode('utf-8'),
+                    self.args[3:].encode('utf-8')
+                )
+        fb = ("G-%02i") % data.clients.connectedClients[client.playerId].ship
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+        shipl = ShipLabel.get(fb, fb)
+        for client_data in data.clients.connectedClients.values():
+            if client_data.preferences.get_preference('globalChat') and client_data.get_handle() is not None:
+                if lookup_gchatmode(client_data.preferences) == 0:
+                    client_data.get_handle().send_crypto_packet(
+                        packetFactory.TeamChatPacket(
+                            client.playerId,
+                            u"[%s] %s" % (
+                                shipl, data.players.playerList[client.playerId][0]
+                            ),
+                            data.players.playerList[client.playerId][0],
+                            u"%s%s" % (
+                                client_data.preferences.get_preference('globalChatPrefix'),
+                                self.args[3:]
+                            )
+                        ).build()
+                    )
+                else:
+<<<<<<< HEAD
+                    client_data.get_handle().send_crypto_packet(packetFactory.SystemMessagePacket("{ora}[%s] <%s>{yel} %s" % (shipl, data.players.playerList[client.playerId][0], "%s%s" % (client_data.preferences.get_preference('globalChatPrefix'), self.args[3:])), 0x3).build())
+=======
+                    client_data.get_handle().send_crypto_packet(
+                        packetFactory.SystemMessagePacket(
+                            u"[{}] <{}> {}".format(
+                                shipl, data.players.playerList[client.playerId][0],
+                                u"{}{}".format(
+                                    client_data.preferences.get_preference('globalChatPrefix'),
+                                    self.args[3:]
+                                )
+                            ),
+                            0x3
+                        ).build()
+                    )
+>>>>>>> d4a7bf2cacdd48a2cfb02935e664e0f093252d00
+
+    def call_from_console(self):
+        global ircMode
+        gconsole = ("[%s]") % ShipLabel["PCP Admin"]
+        if ircMode:
+            global ircBot
+            if ircBot is not None:
+                ircBot.send_global_message(0, ShipLabel["PCP Admin"], self.args[2:].encode('utf-8'))
+        TCPacket = packetFactory.TeamChatPacket(0x999, gconsole, gconsole, self.args[2:]).build()
+        SMPacket = packetFactory.SystemMessagePacket(u"%s %s%s" % (gconsole, gchatSettings['prefix'], self.args[2:]), 0x3).build()
+        for client in data.clients.connectedClients.values():
+            if client.preferences.get_preference("globalChat") and client.get_handle() is not None:
+                if lookup_gchatmode(client.preferences) == 0:
+                    client.get_handle().send_crypto_packet(TCPacket)
+                else:
+                    client.get_handle().send_crypto_packet(SMPacket)
+        return "[GlobalChat] %s %s" % (gconsole, self.args[2:])
+		
+@plugins.CommandHook("G", "Mengirim chat ke Gchat.")
+class GChat(commands.Command):
+    def call_from_client(self, client):
+        global ircMode
+        if not data.clients.connectedClients[client.playerId].preferences.get_preference('globalChat'):
+            client.send_crypto_packet(packetFactory.SystemMessagePacket(
+                "{yel}[PCP Bot] {gre}Gchat Status: {ora}OFF{gre}, dan tidak dapat mengirim pesan", 0x3).build())
+            return
+        if data.clients.connectedClients[client.playerId].preferences.has_preference("chatMuted") and data.clients.connectedClients[client.playerId].preferences['chatMuted']:
+            client.send_crypto_packet(packetFactory.SystemMessagePacket("{yel}[PCP Bot] {red}Anda dinonaktifkan dari Gchat dan anda tidak dapat mengirim pesan ke Gchat. :(", 0x3).build())
+            return
+        print("[GlobalChat] [%s] %s" % (data.players.playerList[client.playerId][0], self.args[3:]))
+        if redisEnabled:
+                    PSO2PDConnector.db_conn.publish("plugin-message-gchat", json.dumps({'sender': 0, 'text': self.args[3:], 'server': PSO2PDConnector.connector_conf['server_name'], 'playerName': data.players.playerList[client.playerId][0], 'playerId': client.playerId, 'ship': data.clients.connectedClients[client.playerId].ship}))
+        if ircMode:
+            global ircBot
+            if ircBot is not None:
+                ircBot.send_global_message(data.clients.connectedClients[client.playerId].ship, data.players.playerList[client.playerId][0].encode('utf-8'), self.args[3:].encode('utf-8'))
+        fb = ("Ship-%02i") % data.clients.connectedClients[client.playerId].ship
+        shipl = ShipLabel.get(fb, fb)
+        for client_data in data.clients.connectedClients.values():
+            if client_data.preferences.get_preference('globalChat') and client_data.get_handle() is not None:
+                if lookup_gchatmode(client_data.preferences) == 0:
+                    client_data.get_handle().send_crypto_packet(packetFactory.TeamChatPacket(client.playerId, "[%s] %s" % (shipl, data.players.playerList[client.playerId][0]), data.players.playerList[client.playerId][0], "%s%s" % (client_data.preferences.get_preference('globalChatPrefix'), self.args[3:])).build())
+                else:
+                    client_data.get_handle().send_crypto_packet(packetFactory.SystemMessagePacket("{ora}[%s] <%s>{yel} %s" % (shipl, data.players.playerList[client.playerId][0], "%s%s" % (client_data.preferences.get_preference('globalChatPrefix'), self.args[3:])), 0x3).build())
+
+    def call_from_console(self):
+        global ircMode
+        gconsole = ("[%s]") % ShipLabel["PCP Admin"]
+        if ircMode:
+            global ircBot
+            if ircBot is not None:
+                ircBot.send_global_message(0, ShipLabel["PCP Admin"], self.args[2:].encode('utf-8'))
+        TCPacket = packetFactory.TeamChatPacket(0x999, gconsole, gconsole, self.args[2:]).build()
+        SMPacket = packetFactory.SystemMessagePacket("%s %s%s" % (gconsole, gchatSettings['prefix'], self.args[2:]), 0x3).build()
+        for client in data.clients.connectedClients.values():
+            if client.preferences.get_preference("globalChat") and client.get_handle() is not None:
+                if lookup_gchatmode(client.preferences) == 0:
+                    client.get_handle().send_crypto_packet(TCPacket)
+                else:
+                    client.get_handle().send_crypto_packet(SMPacket)
+        return "[GlobalChat] %s %s" % (gconsole, self.args[2:])
+

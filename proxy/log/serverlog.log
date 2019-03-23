@@ -1,0 +1,1749 @@
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 13:14:11+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 13:14:11+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 13:14:11+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 13:14:11+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 13:14:11+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 13:14:11+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 13:14:11+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 13:14:11+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 13:14:11+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 13:14:11+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 13:14:11+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 13:14:11+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 13:14:11+0900 [-] Site starting on 8080
+2017-06-15 13:14:11+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7f6ae41fbbd8>
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12294 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12394 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12494 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12594 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12694 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12794 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12899 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12894 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12994 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12100 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12199 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12700 Closed)
+2017-06-15 13:14:49+0900 [twisted.web.server.Site] (TCP Port 8080 Closed)
+2017-06-15 13:14:49+0900 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x7f6ae41fbbd8>
+2017-06-15 13:14:49+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12600 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12499 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12299 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12399 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12800 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12200 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12599 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12300 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12400 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12099 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12799 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12999 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12900 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12094 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12194 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12699 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.BlockScraperFactory] (TCP Port 13000 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12000 Closed)
+2017-06-15 13:14:49+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12500 Closed)
+2017-06-15 13:14:49+0900 [-] Main loop terminated.
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 13:18:54+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 13:18:54+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 13:18:54+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 13:18:54+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 13:18:54+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 13:18:54+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 13:18:54+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 13:18:54+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 13:18:54+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 13:18:54+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 13:18:54+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 13:18:54+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 13:18:54+0900 [-] Site starting on 8080
+2017-06-15 13:18:54+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7f7c86b10950>
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12294 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12394 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12494 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12594 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12694 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12794 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12600 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12894 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12994 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12100 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12199 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12700 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12499 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12299 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12399 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12800 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12200 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12599 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12300 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12699 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12799 Closed)
+2017-06-15 13:19:47+0900 [twisted.web.server.Site] (TCP Port 8080 Closed)
+2017-06-15 13:19:47+0900 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x7f7c86b10950>
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12899 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12099 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12999 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12900 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12094 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12194 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12400 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.BlockScraperFactory] (TCP Port 13000 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12000 Closed)
+2017-06-15 13:19:47+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12500 Closed)
+2017-06-15 13:19:47+0900 [-] Main loop terminated.
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 13:28:28+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 13:28:28+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 13:28:28+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 13:28:28+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 13:28:28+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 13:28:28+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 13:28:28+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 13:28:28+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 13:28:28+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 13:28:28+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 13:28:28+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 13:28:28+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 13:28:28+0900 [-] Site starting on 8080
+2017-06-15 13:28:28+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7f7c67e02950>
+2017-06-15 13:29:48+0900 [HTTPChannel,0,36.84.62.230] 36.84.62.230 - - [15/Jun/2017:04:29:47 +0000] "GET /config.json HTTP/1.1" 200 125 "-" "-"
+2017-06-15 13:29:49+0900 [HTTPChannel,0,36.84.62.230] 36.84.62.230 - - [15/Jun/2017:04:29:48 +0000] "GET /config.json HTTP/1.1" 200 125 "-" "-"
+2017-06-15 13:29:49+0900 [HTTPChannel,0,36.84.62.230] 36.84.62.230 - - [15/Jun/2017:04:29:48 +0000] "GET /publickey.blob HTTP/1.1" 200 148 "-" "GNT-0000 00 QanT"
+2017-06-15 13:32:03+0900 [queryProtocols.ShipAdvertiserFactoryPC] [ShipQuery] Scraping 210.189.208.1:12199 for ship status...
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12294 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12394 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12494 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12594 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12694 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12794 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12600 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12894 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12994 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12100 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12199 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12700 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12499 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12299 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12399 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12800 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12200 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12300 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12599 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12699 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12799 Closed)
+2017-06-15 13:44:24+0900 [twisted.web.server.Site] (TCP Port 8080 Closed)
+2017-06-15 13:44:24+0900 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x7f7c67e02950>
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12899 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12999 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12900 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12094 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12194 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12400 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.BlockScraperFactory] (TCP Port 13000 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12099 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12000 Closed)
+2017-06-15 13:44:24+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12500 Closed)
+2017-06-15 13:44:24+0900 [-] Main loop terminated.
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 13:44:34+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 13:44:34+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 13:44:34+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 13:44:34+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 13:44:34+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 13:44:34+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 13:44:34+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 13:44:34+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 13:44:34+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 13:44:34+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 13:44:34+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 13:44:34+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 13:44:34+0900 [-] Site starting on 8080
+2017-06-15 13:44:34+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7fce8d508e18>
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12294 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12394 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12494 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12594 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12694 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12794 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12600 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12894 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12994 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12100 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12199 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12700 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12499 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12299 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12399 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12800 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12200 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12300 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12599 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12699 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12799 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12899 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12999 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12900 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12094 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12194 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12400 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12099 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.BlockScraperFactory] (TCP Port 13000 Closed)
+2017-06-15 13:47:44+0900 [twisted.web.server.Site] (TCP Port 8080 Closed)
+2017-06-15 13:47:44+0900 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x7fce8d508e18>
+2017-06-15 13:47:44+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12000 Closed)
+2017-06-15 13:47:44+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12500 Closed)
+2017-06-15 13:47:44+0900 [-] Main loop terminated.
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 13:49:34+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 13:49:34+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 13:49:34+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 13:49:34+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 13:49:34+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 13:49:34+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 13:49:34+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 13:49:34+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 13:49:34+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 13:49:34+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 13:49:34+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 13:49:34+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 13:49:34+0900 [-] Site starting on 8080
+2017-06-15 13:49:34+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7f1842da0830>
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 13:54:28+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 13:54:28+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 13:54:28+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 13:54:28+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 13:54:28+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 13:54:28+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 13:54:28+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 13:54:28+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 13:54:28+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 13:54:28+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 13:54:28+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 13:54:28+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 13:54:28+0900 [-] Site starting on 8080
+2017-06-15 13:54:28+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7fc427034830>
+2017-06-15 13:55:30+0900 [HTTPChannel,0,36.84.62.230] 36.84.62.230 - - [15/Jun/2017:04:55:30 +0000] "GET /config.json HTTP/1.1" 200 129 "-" "-"
+2017-06-15 13:55:30+0900 [HTTPChannel,0,36.84.62.230] 36.84.62.230 - - [15/Jun/2017:04:55:30 +0000] "GET /config.json HTTP/1.1" 200 129 "-" "-"
+2017-06-15 13:55:30+0900 [HTTPChannel,0,36.84.62.230] 36.84.62.230 - - [15/Jun/2017:04:55:30 +0000] "GET /publickey.blob HTTP/1.1" 200 148 "-" "GNT-0000 00 QanT"
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12294 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12394 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12494 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12594 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12694 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12794 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12600 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12894 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12994 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12799 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12100 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12199 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12700 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12200 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12299 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12399 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12800 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12499 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12300 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12599 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12699 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12500 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12899 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12999 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12900 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12094 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12194 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12400 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12099 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12000 Closed)
+2017-06-15 13:56:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 13000 Closed)
+2017-06-15 13:56:05+0900 [twisted.web.server.Site] (TCP Port 8080 Closed)
+2017-06-15 13:56:05+0900 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x7fc427034830>
+2017-06-15 13:56:05+0900 [-] Main loop terminated.
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 13:56:56+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 13:56:56+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 13:56:56+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 13:56:56+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 13:56:56+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 13:56:56+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 13:56:56+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 13:56:56+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 13:56:56+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 13:56:56+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 13:56:56+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 13:56:56+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 13:56:56+0900 [-] Site starting on 8080
+2017-06-15 13:56:56+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7faf29978830>
+2017-06-15 13:57:43+0900 [HTTPChannel,0,36.84.62.230] 36.84.62.230 - - [15/Jun/2017:04:57:43 +0000] "GET /config.json HTTP/1.1" 200 129 "-" "-"
+2017-06-15 13:57:43+0900 [HTTPChannel,0,36.84.62.230] 36.84.62.230 - - [15/Jun/2017:04:57:43 +0000] "GET /config.json HTTP/1.1" 200 129 "-" "-"
+2017-06-15 13:57:43+0900 [HTTPChannel,0,36.84.62.230] 36.84.62.230 - - [15/Jun/2017:04:57:43 +0000] "GET /publickey.blob HTTP/1.1" 200 148 "-" "GNT-0000 00 QanT"
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 15:51:29+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 15:51:29+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 15:51:29+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 15:51:29+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 15:51:29+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 15:51:29+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 15:51:29+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 15:51:29+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 15:51:29+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 15:51:29+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 15:51:29+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 15:51:29+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 15:51:29+0900 [-] Site starting on 8080
+2017-06-15 15:51:29+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7fa7e54517e8>
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12294 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12394 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12494 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12594 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12694 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12794 Closed)
+2017-06-15 15:53:52+0900 [twisted.web.server.Site] (TCP Port 8080 Closed)
+2017-06-15 15:53:52+0900 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x7fa7e54517e8>
+2017-06-15 15:53:52+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12600 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12894 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12994 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12100 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12000 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12099 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12700 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12499 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12299 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12399 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12800 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12200 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12599 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12300 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12699 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12500 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12899 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12999 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12900 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12094 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12194 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12400 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.BlockScraperFactory] (TCP Port 13000 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12199 Closed)
+2017-06-15 15:53:52+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12799 Closed)
+2017-06-15 15:53:52+0900 [-] Main loop terminated.
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 16:04:09+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 16:04:09+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 16:04:09+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 16:04:09+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 16:04:09+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 16:04:09+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 16:04:09+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 16:04:09+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 16:04:09+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 16:04:09+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 16:04:09+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 16:04:09+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 16:04:09+0900 [-] Site starting on 8080
+2017-06-15 16:04:09+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7fd0484297e8>
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 16:05:18+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 16:05:18+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 16:05:18+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 16:05:18+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 16:05:18+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 16:05:18+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 16:05:18+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 16:05:18+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 16:05:18+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 16:05:18+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 16:05:18+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 16:05:18+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 16:05:18+0900 [-] Site starting on 8080
+2017-06-15 16:05:18+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7f922a75a7e8>
+2017-06-15 16:05:55+0900 [HTTPChannel,0,115.178.194.104] 115.178.194.104 - - [15/Jun/2017:07:05:54 +0000] "GET /config.json HTTP/1.1" 200 129 "-" "-"
+2017-06-15 16:05:55+0900 [HTTPChannel,0,115.178.194.104] 115.178.194.104 - - [15/Jun/2017:07:05:54 +0000] "GET /config.json HTTP/1.1" 200 129 "-" "-"
+2017-06-15 16:05:55+0900 [HTTPChannel,0,115.178.194.104] 115.178.194.104 - - [15/Jun/2017:07:05:54 +0000] "GET /publickey.blob HTTP/1.1" 200 148 "-" "GNT-0000 00 QanT"
+2017-06-15 16:12:11+0900 [queryProtocols.ShipAdvertiserFactoryPC] [ShipQuery] Scraping 210.189.208.1:12199 for ship status...
+2017-06-15 16:12:22+0900 [queryProtocols.BlockScraperFactory] [BlockQuery] Scraping 210.189.208.16:12200 for a initial block...
+2017-06-15 16:12:22+0900 [queryProtocols.BlockScraperFactory] [BlockQuery] Scraping 210.189.208.16:12200 for a initial block...
+2017-06-15 16:12:22+0900 [queryProtocols.BlockScraperFactory] ProxyFactory starting on 12209
+2017-06-15 16:12:22+0900 [queryProtocols.BlockScraperFactory] ProxyFactory starting on 12218
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12294 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12394 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12494 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12594 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12694 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12794 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12600 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12894 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12994 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12100 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12199 Closed)
+2017-06-15 16:13:02+0900 [twisted.web.server.Site] (TCP Port 8080 Closed)
+2017-06-15 16:13:02+0900 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x7f922a75a7e8>
+2017-06-15 16:13:02+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12700 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12499 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12299 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12399 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12800 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12200 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12300 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12599 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12699 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12500 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12899 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12999 Closed)
+2017-06-15 16:13:02+0900 [ShipProxy.ProxyFactory] (TCP Port 12218 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12900 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12094 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12194 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12400 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.BlockScraperFactory] (TCP Port 13000 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12099 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12000 Closed)
+2017-06-15 16:13:02+0900 [ShipProxy.ProxyFactory] (TCP Port 12209 Closed)
+2017-06-15 16:13:02+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12799 Closed)
+2017-06-15 16:13:02+0900 [-] Main loop terminated.
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 16:13:55+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 16:13:55+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 16:13:55+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 16:13:55+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 16:13:55+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 16:13:55+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 16:13:55+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 16:13:55+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 16:13:55+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 16:13:55+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 16:13:55+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 16:13:55+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 16:13:55+0900 [-] Site starting on 8080
+2017-06-15 16:13:55+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7f72f28167e8>
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12294 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12394 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12494 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12594 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12694 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12794 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12600 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12894 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12994 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12100 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12199 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12799 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12700 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12499 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12299 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12399 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12800 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12200 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12300 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12599 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12699 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12099 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12500 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12899 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12999 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12900 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12094 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12194 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12400 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.BlockScraperFactory] (TCP Port 13000 Closed)
+2017-06-15 16:14:11+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12000 Closed)
+2017-06-15 16:14:11+0900 [twisted.web.server.Site] (TCP Port 8080 Closed)
+2017-06-15 16:14:11+0900 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x7f72f28167e8>
+2017-06-15 16:14:11+0900 [-] Main loop terminated.
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 16:14:54+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 16:14:54+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 16:14:54+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 16:14:54+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 16:14:54+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 16:14:54+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 16:14:54+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 16:14:54+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 16:14:54+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 16:14:54+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 16:14:54+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 16:14:54+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 16:14:54+0900 [-] Site starting on 8080
+2017-06-15 16:14:54+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7f39cf0f67e8>
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12294 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12394 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12494 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12594 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12694 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12794 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12600 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12894 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12994 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12100 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12000 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12799 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12700 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12499 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12299 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12399 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12800 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12200 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12300 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12599 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12699 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12099 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12500 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12899 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12999 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12900 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12094 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12194 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12400 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.BlockScraperFactory] (TCP Port 13000 Closed)
+2017-06-15 16:15:01+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12199 Closed)
+2017-06-15 16:15:01+0900 [twisted.web.server.Site] (TCP Port 8080 Closed)
+2017-06-15 16:15:01+0900 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x7f39cf0f67e8>
+2017-06-15 16:15:01+0900 [-] Main loop terminated.
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 16:15:57+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 16:15:57+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 16:15:57+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 16:15:57+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 16:15:57+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 16:15:57+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 16:15:57+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 16:15:57+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 16:15:57+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 16:15:57+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 16:15:57+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 16:15:57+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 16:15:57+0900 [-] Site starting on 8080
+2017-06-15 16:15:57+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7fce71e333b0>
+2017-06-15 16:16:05+0900 [queryProtocols.BlockScraperFactory] [BlockQuery] Scraping 210.189.208.16:12200 for a initial block...
+2017-06-15 16:16:05+0900 [queryProtocols.BlockScraperFactory] [BlockQuery] Scraping 210.189.208.16:12200 for a initial block...
+2017-06-15 16:16:05+0900 [queryProtocols.BlockScraperFactory] ProxyFactory starting on 12219
+2017-06-15 16:16:05+0900 [queryProtocols.BlockScraperFactory] ProxyFactory starting on 12206
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12294 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12394 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12799 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12494 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12594 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12694 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12794 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12600 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12894 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12994 Closed)
+2017-06-15 16:27:58+0900 [ShipProxy.ProxyFactory] (TCP Port 12206 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12100 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12000 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12099 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12700 Closed)
+2017-06-15 16:27:58+0900 [twisted.web.server.Site] (TCP Port 8080 Closed)
+2017-06-15 16:27:58+0900 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x7fce71e333b0>
+2017-06-15 16:27:58+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12200 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12299 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12399 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12800 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12499 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12300 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12599 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12699 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12500 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12899 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12999 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12900 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12094 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12194 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12400 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.BlockScraperFactory] (TCP Port 13000 Closed)
+2017-06-15 16:27:58+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12199 Closed)
+2017-06-15 16:27:58+0900 [ShipProxy.ProxyFactory] (TCP Port 12219 Closed)
+2017-06-15 16:27:58+0900 [-] Main loop terminated.
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 16:28:06+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 16:28:06+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 16:28:06+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 16:28:06+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 16:28:06+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 16:28:06+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 16:28:06+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 16:28:06+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 16:28:06+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 16:28:06+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 16:28:06+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 16:28:06+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 16:28:06+0900 [-] Site starting on 8080
+2017-06-15 16:28:06+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7f9acf021878>
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12294 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12394 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12494 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12594 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12699 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12694 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12794 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12600 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12894 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12994 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12100 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12000 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12099 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12700 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12200 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12299 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12399 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12800 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12499 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12300 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12599 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12400 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12799 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12899 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12999 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12900 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12094 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12194 Closed)
+2017-06-15 16:29:26+0900 [twisted.web.server.Site] (TCP Port 8080 Closed)
+2017-06-15 16:29:26+0900 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x7f9acf021878>
+2017-06-15 16:29:26+0900 [queryProtocols.BlockScraperFactory] (TCP Port 13000 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12199 Closed)
+2017-06-15 16:29:26+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12500 Closed)
+2017-06-15 16:29:26+0900 [-] Main loop terminated.
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 16:29:35+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 16:29:35+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 16:29:35+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 16:29:35+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 16:29:35+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 16:29:35+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 16:29:35+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 16:29:35+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 16:29:35+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 16:29:35+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 16:29:35+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 16:29:35+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 16:29:35+0900 [-] Site starting on 8080
+2017-06-15 16:29:35+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7f6fcfea27e8>
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 16:29:57+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 16:29:57+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 16:29:57+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 16:29:57+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 16:29:57+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 16:29:57+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 16:29:57+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 16:29:57+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 16:29:57+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 16:29:57+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 16:29:57+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 16:29:57+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 16:29:57+0900 [-] Site starting on 8080
+2017-06-15 16:29:57+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7fe274cd27e8>
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 16:30:28+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 16:30:28+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 16:30:28+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 16:30:28+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 16:30:28+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 16:30:28+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 16:30:28+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 16:30:28+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 16:30:28+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 16:30:28+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 16:30:28+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 16:30:28+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 16:30:28+0900 [-] Site starting on 8080
+2017-06-15 16:30:28+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7faf1e11b7e8>
+2017-06-15 16:42:18+0900 [queryProtocols.ShipAdvertiserFactoryPC] [ShipQuery] Scraping 210.189.208.1:12199 for ship status...
+2017-06-15 16:42:21+0900 [queryProtocols.BlockScraperFactory] [BlockQuery] Scraping 210.189.208.16:12200 for a initial block...
+2017-06-15 16:42:21+0900 [queryProtocols.BlockScraperFactory] [BlockQuery] Scraping 210.189.208.16:12200 for a initial block...
+2017-06-15 16:42:21+0900 [queryProtocols.BlockScraperFactory] ProxyFactory starting on 12211
+2017-06-15 16:42:21+0900 [queryProtocols.BlockScraperFactory] ProxyFactory starting on 12239
+2017-06-15 16:51:15+0900 [ProxyClient,client] ProxyFactory starting on 12225
+2017-06-15 17:04:30+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12294 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12394 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12494 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12594 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12694 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12794 Closed)
+2017-06-15 17:04:31+0900 [ShipProxy.ProxyFactory] (TCP Port 12211 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12894 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12994 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12100 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12199 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12700 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12499 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12299 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12399 Closed)
+2017-06-15 17:04:31+0900 [ShipProxy.ProxyFactory] (TCP Port 12239 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12800 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12200 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12599 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12300 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12699 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12799 Closed)
+2017-06-15 17:04:31+0900 [ShipProxy.ProxyFactory] (TCP Port 12225 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12600 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12999 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12900 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12094 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12194 Closed)
+2017-06-15 17:04:31+0900 [twisted.web.server.Site] (TCP Port 8080 Closed)
+2017-06-15 17:04:31+0900 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x7faf1e11b7e8>
+2017-06-15 17:04:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12400 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 13000 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12899 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12000 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12099 Closed)
+2017-06-15 17:04:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12500 Closed)
+2017-06-15 17:04:31+0900 [-] Main loop terminated.
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 17:05:38+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 17:05:38+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 17:05:38+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 17:05:38+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 17:05:38+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 17:05:38+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 17:05:38+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 17:05:38+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 17:05:38+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 17:05:38+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 17:05:38+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 17:05:38+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 17:05:38+0900 [-] Site starting on 8080
+2017-06-15 17:05:38+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7f35c5e957e8>
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12294 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12394 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12494 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12594 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12694 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12794 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12600 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12894 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12994 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12100 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12799 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12199 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12700 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12200 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12299 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12399 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12800 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12499 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12099 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12599 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12300 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12699 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12500 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12899 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12999 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12900 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12094 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12194 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12400 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 13000 Closed)
+2017-06-15 17:12:31+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12000 Closed)
+2017-06-15 17:12:31+0900 [twisted.web.server.Site] (TCP Port 8080 Closed)
+2017-06-15 17:12:31+0900 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x7f35c5e957e8>
+2017-06-15 17:12:31+0900 [-] Main loop terminated.
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 17:18:14+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 17:18:14+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 17:18:14+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 17:18:14+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 17:18:14+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 17:18:14+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 17:18:14+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 17:18:14+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 17:18:14+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 17:18:14+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 17:18:14+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 17:18:14+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 17:18:14+0900 [-] Site starting on 8080
+2017-06-15 17:18:14+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7faed39707e8>
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 17:19:29+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 17:19:29+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 17:19:29+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 17:19:29+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 17:19:29+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 17:19:29+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 17:19:29+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 17:19:29+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 17:19:29+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 17:19:29+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 17:19:29+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 17:19:29+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 17:19:29+0900 [-] Site starting on 8080
+2017-06-15 17:19:29+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7f0458b317e8>
+2017-06-15 17:19:33+0900 [HTTPChannel,0,115.178.194.104] 115.178.194.104 - - [15/Jun/2017:08:19:32 +0000] "GET /config.json HTTP/1.1" 200 129 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 OPR/45.0.2552.898"
+2017-06-15 17:19:33+0900 [HTTPChannel,0,115.178.194.104] 115.178.194.104 - - [15/Jun/2017:08:19:32 +0000] "GET /favicon.ico HTTP/1.1" 404 153 "http://150.95.128.50:8080/config.json" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 OPR/45.0.2552.898"
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12294 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12394 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12799 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12494 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12594 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12694 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12794 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12600 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12894 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12994 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12100 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12199 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12099 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12700 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12200 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12299 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12399 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12800 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12499 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12599 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12300 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12699 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12500 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12899 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryPC] (TCP Port 12999 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12900 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12094 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.ShipAdvertiserFactoryVita] (TCP Port 12194 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12400 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 13000 Closed)
+2017-06-15 17:22:05+0900 [queryProtocols.BlockScraperFactory] (TCP Port 12000 Closed)
+2017-06-15 17:22:05+0900 [twisted.web.server.Site] (TCP Port 8080 Closed)
+2017-06-15 17:22:05+0900 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x7f0458b317e8>
+2017-06-15 17:22:05+0900 [-] Main loop terminated.
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryPC starting on 12099
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryPC starting on 12199
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryPC starting on 12299
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryPC starting on 12399
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryPC starting on 12499
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryPC starting on 12599
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryPC starting on 12699
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryPC starting on 12799
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryPC starting on 12899
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryPC starting on 12999
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryVita starting on 12094
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryVita starting on 12194
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryVita starting on 12294
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryVita starting on 12394
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryVita starting on 12494
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryVita starting on 12594
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryVita starting on 12694
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryVita starting on 12794
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryVita starting on 12894
+2017-06-15 17:23:15+0900 [-] ShipAdvertiserFactoryVita starting on 12994
+2017-06-15 17:23:15+0900 [-] BlockScraperFactory starting on 12000
+2017-06-15 17:23:15+0900 [-] BlockScraperFactory starting on 12100
+2017-06-15 17:23:15+0900 [-] BlockScraperFactory starting on 12200
+2017-06-15 17:23:15+0900 [-] BlockScraperFactory starting on 12300
+2017-06-15 17:23:15+0900 [-] BlockScraperFactory starting on 12400
+2017-06-15 17:23:15+0900 [-] BlockScraperFactory starting on 12500
+2017-06-15 17:23:15+0900 [-] BlockScraperFactory starting on 12600
+2017-06-15 17:23:15+0900 [-] BlockScraperFactory starting on 12700
+2017-06-15 17:23:15+0900 [-] BlockScraperFactory starting on 12800
+2017-06-15 17:23:15+0900 [-] BlockScraperFactory starting on 12900
+2017-06-15 17:23:15+0900 [-] BlockScraperFactory starting on 13000
+2017-06-15 17:23:15+0900 [-] Site starting on 8080
+2017-06-15 17:23:15+0900 [-] Starting factory <twisted.web.server.Site instance at 0x7fa41e6898c0>
+2017-06-15 17:24:07+0900 [HTTPChannel,0,115.178.194.104] 115.178.194.104 - - [15/Jun/2017:08:24:07 +0000] "GET /config.json HTTP/1.1" 200 129 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 OPR/45.0.2552.898"
+2017-06-15 17:24:12+0900 [HTTPChannel,0,115.178.194.104] 115.178.194.104 - - [15/Jun/2017:08:24:12 +0000] "GET /config.json HTTP/1.1" 200 129 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 OPR/45.0.2552.898"
+2017-06-15 17:24:14+0900 [HTTPChannel,0,115.178.194.104] 115.178.194.104 - - [15/Jun/2017:08:24:14 +0000] "GET /config.json HTTP/1.1" 200 129 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 OPR/45.0.2552.898"
+2017-06-15 17:24:16+0900 [HTTPChannel,0,115.178.194.104] 115.178.194.104 - - [15/Jun/2017:08:24:15 +0000] "GET /config.json HTTP/1.1" 200 129 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 OPR/45.0.2552.898"
+2017-06-15 17:24:18+0900 [HTTPChannel,0,115.178.194.104] 115.178.194.104 - - [15/Jun/2017:08:24:17 +0000] "GET /config.json HTTP/1.1" 200 129 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 OPR/45.0.2552.898"
+2017-06-15 17:24:27+0900 [HTTPChannel,0,115.178.194.104] 115.178.194.104 - - [15/Jun/2017:08:24:26 +0000] "GET /config.json HTTP/1.1" 200 129 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 OPR/45.0.2552.898"
+2017-06-15 17:24:44+0900 [HTTPChannel,0,115.178.194.104] 115.178.194.104 - - [15/Jun/2017:08:24:43 +0000] "GET /config.json HTTP/1.1" 200 129 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 OPR/45.0.2552.898"
+2017-06-15 17:26:03+0900 [queryProtocols.ShipAdvertiserFactoryPC] [ShipQuery] Scraping 210.189.208.1:12199 for ship status...
+2017-06-15 17:26:07+0900 [queryProtocols.BlockScraperFactory] [BlockQuery] Scraping 210.189.208.16:12200 for a initial block...
+2017-06-15 17:26:07+0900 [queryProtocols.BlockScraperFactory] [BlockQuery] Scraping 210.189.208.16:12200 for a initial block...
+2017-06-15 17:26:07+0900 [queryProtocols.BlockScraperFactory] ProxyFactory starting on 12274
+2017-06-15 17:26:07+0900 [queryProtocols.BlockScraperFactory] ProxyFactory starting on 12205
+2017-06-15 17:30:56+0900 [ProxyClient,client] ProxyFactory starting on 12225
+isted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12299: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 108, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryPC())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12399: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 108, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryPC())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12499: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 108, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryPC())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12599: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 108, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryPC())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12699: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 108, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryPC())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12799: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 108, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryPC())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12899: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 108, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryPC())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12999: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 112, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryVita())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12094: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 112, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryVita())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12194: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 112, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryVita())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12294: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 112, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryVita())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12394: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 112, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryVita())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12494: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 112, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryVita())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12594: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 112, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryVita())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12694: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 112, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryVita())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12794: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 112, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryVita())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12894: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 112, in main
+	    ship_endpoint.listen(ShipAdvertiserFactoryVita())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12994: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 116, in main
+	    query_endpoint.listen(BlockScraperFactory())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12000: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 116, in main
+	    query_endpoint.listen(BlockScraperFactory())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12100: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 116, in main
+	    query_endpoint.listen(BlockScraperFactory())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12200: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 116, in main
+	    query_endpoint.listen(BlockScraperFactory())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12300: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 116, in main
+	    query_endpoint.listen(BlockScraperFactory())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12400: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 116, in main
+	    query_endpoint.listen(BlockScraperFactory())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12500: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 116, in main
+	    query_endpoint.listen(BlockScraperFactory())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12600: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 116, in main
+	    query_endpoint.listen(BlockScraperFactory())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12700: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 116, in main
+	    query_endpoint.listen(BlockScraperFactory())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12800: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 116, in main
+	    query_endpoint.listen(BlockScraperFactory())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:12900: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 119, in main
+	    query_endpoint.listen(BlockScraperFactory())
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 150.95.128.50:13000: [Errno 98] Address already in use.
+	
+2017-06-15 17:23:47+0900 [-] Unhandled error in Deferred:
+2017-06-15 17:23:47+0900 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "./PSO2Proxy.sh", line 144, in <module>
+	    main()
+	  File "./PSO2Proxy.sh", line 130, in main
+	    f()
+	  File "/home/noviarrs/PSO2Proxy/proxy/plugins/WebAPI.py", line 141, in setup_web_api
+	    web_endpoint.listen(server.Site(web_resource))
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/endpoints.py", line 466, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 110, in execute
+	    result = callable(*args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 979, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 0.0.0.0:8080: [Errno 98] Address already in use.
+	

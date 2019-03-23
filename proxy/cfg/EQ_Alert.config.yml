@@ -1,0 +1,3 @@
+{'0': true, '1': true, '2': true, '3': true, '4': true, '5': true, '6': true, '7': true,
+  '8': true, '9': true, api: 'http://pso2.acf.me.uk/api/eq.json', debug: false, enabled: true,
+  ircShip: 1, timer: 80}

@@ -1,0 +1,9 @@
+autoexec: []
+channel: '#pcpgchat123'
+enabled: true
+nick: PSO2
+output: true
+port: 6667
+server: 172.105.227.34
+svname: irc.example.net
+svpass: ''

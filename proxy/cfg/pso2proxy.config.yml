@@ -1,0 +1,7 @@
+admins: [noviarrs]
+bindIp: 0.0.0.0
+blockNameMode: 1
+commandPrefix: '!'
+enabledShips: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+myIpAddr: 172.105.227.34
+noisy: false
